@@ -44,4 +44,16 @@ public class Suma {
 		return solucionEntero;
 	} 
 
+	/**
+	 * Suma de tres n�meros reales
+	 * @param operandoReal1 N�mero real, par�metro de entrada, no negativo
+	 * @param operandoReal2 N�mero real, par�metro de entrada, no negativo
+	 * @param operandoReal3 N�mero real, par�metro de salida. Soluci�n a la suma de los tres par�metros de entrada
+	 * @return
+	 */
+	public double sumaTresReales(double operandoReal1, double operandoReal2, double operandoReal3) {
+		this.solucionReal = operandoReal1 + operandoReal2 + operandoReal3;
+		return solucionReal;
+	}
+
 }

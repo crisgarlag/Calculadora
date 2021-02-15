@@ -56,4 +56,14 @@ public class Suma {
 		return solucionReal;
 	}
 
+	/**
+	 * Suma con valor acumulado
+	 * @param operandoEntero1, no negativo
+	 */
+	public void sumaValorAcumulado(int operandoEntero1) {
+		this.valorAcumulado += operandoEntero1;
+	}
+	
+	
+
 }

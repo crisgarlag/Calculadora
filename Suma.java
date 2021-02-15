@@ -32,5 +32,16 @@ public class Suma {
 		return solucionReal;
 	}
 	
+	
+	/**
+	 * Suma de dos n�meros enteros
+	 * @param operandoEntero1 N�mero entero, par�metro de entrada, no negativo
+	 * @param operandoEntero2 N�mero entero, par�metro de entrada, no negativo
+	 * @return solucionEntero N�mero entero, par�metro de salida. Soluci�n a la suma de los dos par�metros de entrada
+	 */
+	public int sumaDosEnteros(int operandoEntero1, int operandoEntero2) {
+		this.solucionEntero = operandoEntero1 + operandoEntero2;
+		return solucionEntero;
+	} 
 
 }

@@ -1,5 +1,5 @@
 /**
- * Esta clase implementa todos los métodos que están relacionados con la suma.
+ * Esta clase implementa todos los mï¿½todos que estï¿½n relacionados con la suma.
  * @author Alberto
  * @version 1.0
  * @since 14-01-2021
@@ -19,41 +19,43 @@ public class Suma {
 	private double solucionReal;
 	
 	private int valorAcumulado = 0;
+
 	
 	/**
-	 * Suma de dos números reales
-	 * @param operandoReal1 Número real, parámetro de entrada, no negativo
-	 * @param operandoReal2 Número real, parámetro de entrada, no negativo
-	 * @return solucionReal Número real, parámetro de salida. Solución a la suma de los dos parámetros de entrada
+	 * Suma de dos nï¿½meros reales
+	 * @param operandoReal1 Nï¿½mero real, parï¿½metro de entrada, no negativo
+	 * @param operandoReal2 Nï¿½mero real, parï¿½metro de entrada, no negativo
+	 * @return solucionReal Nï¿½mero real, parï¿½metro de salida. Soluciï¿½n a la suma de los dos parï¿½metros de entrada
 	 */
 	public double sumaDosReales(double operandoReal1, double operandoReal2) {
 		this.solucionReal = operandoReal1 + operandoReal2;
 		return solucionReal;
 	}
 	
+	
 	/**
-	 * Suma de dos números enteros
-	 * @param operandoEntero1 Número entero, parámetro de entrada, no negativo
-	 * @param operandoEntero2 Número entero, parámetro de entrada, no negativo
-	 * @return solucionEntero Número entero, parámetro de salida. Solución a la suma de los dos parámetros de entrada
+	 * Suma de dos nï¿½meros enteros
+	 * @param operandoEntero1 Nï¿½mero entero, parï¿½metro de entrada, no negativo
+	 * @param operandoEntero2 Nï¿½mero entero, parï¿½metro de entrada, no negativo
+	 * @return solucionEntero Nï¿½mero entero, parï¿½metro de salida. Soluciï¿½n a la suma de los dos parï¿½metros de entrada
 	 */
 	public int sumaDosEnteros(int operandoEntero1, int operandoEntero2) {
 		this.solucionEntero = operandoEntero1 + operandoEntero2;
 		return solucionEntero;
 	} 
-	
+
 	/**
-	 * Suma de tres números reales
-	 * @param operandoReal1 Número real, parámetro de entrada, no negativo
-	 * @param operandoReal2 Número real, parámetro de entrada, no negativo
-	 * @param operandoReal3 Número real, parámetro de salida. Solución a la suma de los tres parámetros de entrada
+	 * Suma de tres nï¿½meros reales
+	 * @param operandoReal1 Nï¿½mero real, parï¿½metro de entrada, no negativo
+	 * @param operandoReal2 Nï¿½mero real, parï¿½metro de entrada, no negativo
+	 * @param operandoReal3 Nï¿½mero real, parï¿½metro de salida. Soluciï¿½n a la suma de los tres parï¿½metros de entrada
 	 * @return
 	 */
 	public double sumaTresReales(double operandoReal1, double operandoReal2, double operandoReal3) {
 		this.solucionReal = operandoReal1 + operandoReal2 + operandoReal3;
 		return solucionReal;
 	}
-	
+
 	/**
 	 * Suma con valor acumulado
 	 * @param operandoEntero1, no negativo

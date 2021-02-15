@@ -21,6 +21,16 @@ public class Suma {
 	private int valorAcumulado = 0;
 
 	
+	/**
+	 * Suma de dos n�meros reales
+	 * @param operandoReal1 N�mero real, par�metro de entrada, no negativo
+	 * @param operandoReal2 N�mero real, par�metro de entrada, no negativo
+	 * @return solucionReal N�mero real, par�metro de salida. Soluci�n a la suma de los dos par�metros de entrada
+	 */
+	public double sumaDosReales(double operandoReal1, double operandoReal2) {
+		this.solucionReal = operandoReal1 + operandoReal2;
+		return solucionReal;
+	}
 	
 
 }

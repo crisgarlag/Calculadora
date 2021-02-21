@@ -1,7 +1,7 @@
 /**
  * Esta clase implementa todos los métodos que están relacionados con la suma.
  * @author Alberto
- * @version 2.0
+ * @version 3.0
  * @since 21-02-2021
  *
  */
@@ -20,6 +20,41 @@ public class Suma {
 	
 	private int valorAcumulado = 0;
 	
+	/** Constructor con todos los parametros
+	 * 
+	 * @param operandoEntero1
+	 * @param operandoEntero2
+	 * @param operandoEntero3
+	 * @param operandoReal1
+	 * @param operandoReal2
+	 * @param operandoReal3
+	 * @param solucionEntero
+	 * @param solucionReal
+	 * @param valorAcumulado
+	 */
+	public Suma(int operandoEntero1, int operandoEntero2, int operandoEntero3, double operandoReal1,
+			double operandoReal2, double operandoReal3, int solucionEntero, double solucionReal, int valorAcumulado) {
+		super();
+		this.operandoEntero1 = operandoEntero1;
+		this.operandoEntero2 = operandoEntero2;
+		this.operandoEntero3 = operandoEntero3;
+		this.operandoReal1 = operandoReal1;
+		this.operandoReal2 = operandoReal2;
+		this.operandoReal3 = operandoReal3;
+		this.solucionEntero = solucionEntero;
+		this.solucionReal = solucionReal;
+		this.valorAcumulado = valorAcumulado;
+	}
+	
+	/** Constructor vacio
+	 * 
+	 */
+	public Suma() {
+		super();
+	}
+
+
+
 	/**
 	 * Suma de dos números reales
 	 * @param operandoReal1 Número real, parámetro de entrada, puede ser negativo
@@ -62,3 +97,82 @@ public class Suma {
 	public void sumaValorAcumulado(int operandoEntero1) {
 		this.valorAcumulado += operandoEntero1;
 	}
+
+	
+	/*
+	 * Getters and Setters
+	 */
+	public int getOperandoEntero1() {
+		return operandoEntero1;
+	}
+
+	public void setOperandoEntero1(int operandoEntero1) {
+		this.operandoEntero1 = operandoEntero1;
+	}
+
+	public int getOperandoEntero2() {
+		return operandoEntero2;
+	}
+
+	public void setOperandoEntero2(int operandoEntero2) {
+		this.operandoEntero2 = operandoEntero2;
+	}
+
+	public int getOperandoEntero3() {
+		return operandoEntero3;
+	}
+
+	public void setOperandoEntero3(int operandoEntero3) {
+		this.operandoEntero3 = operandoEntero3;
+	}
+
+	public double getOperandoReal1() {
+		return operandoReal1;
+	}
+
+	public void setOperandoReal1(double operandoReal1) {
+		this.operandoReal1 = operandoReal1;
+	}
+
+	public double getOperandoReal2() {
+		return operandoReal2;
+	}
+
+	public void setOperandoReal2(double operandoReal2) {
+		this.operandoReal2 = operandoReal2;
+	}
+
+	public double getOperandoReal3() {
+		return operandoReal3;
+	}
+
+	public void setOperandoReal3(double operandoReal3) {
+		this.operandoReal3 = operandoReal3;
+	}
+
+	public int getSolucionEntero() {
+		return solucionEntero;
+	}
+
+	public void setSolucionEntero(int solucionEntero) {
+		this.solucionEntero = solucionEntero;
+	}
+
+	public double getSolucionReal() {
+		return solucionReal;
+	}
+
+	public void setSolucionReal(double solucionReal) {
+		this.solucionReal = solucionReal;
+	}
+
+	public int getValorAcumulado() {
+		return valorAcumulado;
+	}
+
+	public void setValorAcumulado(int valorAcumulado) {
+		this.valorAcumulado = valorAcumulado;
+	}
+	
+	
+	

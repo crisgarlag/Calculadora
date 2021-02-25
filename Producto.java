@@ -34,6 +34,19 @@ public class Producto {
 		}
 	
 		
+		/**
+		 * Producto de dos numeros enteros
+		 * @param operandoEntero1 operando entero, parametro de entrada,
+		 * @param operandoEntero2 operando entero, parametro de entrada,
+		 * @return solucionEntero operando entero, parametro de salida, solucion al producto de los dos parametros de entrada.
+		 */
+		
+		public int productoDosEnteros (int _operandoEntero1, int _operandoEntero2) {
+			int solucionEntero = _operandoEntero1 * _operandoEntero2;
+			return solucionEntero;
+		}
+		
+		
 		
 	}
 

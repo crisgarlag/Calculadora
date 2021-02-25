@@ -46,12 +46,32 @@ public class Producto {
 			return solucionEntero;
 		}
 		
+		/**
+		 * Producto de tres numeros reales
+		 * @param operandoReal1 operando real, parametro de entrada,
+		 * @param operandoReal2 operando real, parametro de entrada,
+		 * @param operandoReal3 operando real, parametro de entrada,
+		 * @return solucionReal operando real, parametro de salida, solucion al producto de los dos parametros de entrada.
+		 */
 		
+		public double productoTresReales (double _operandoReal1, double _operandoReal2, double _operandoReal3) {
+			double solucionReal = _operandoReal1 * _operandoReal2 * _operandoReal3;
+			return solucionReal;
+		}
+
+		/**
+		 * Potencia de un numero entero
+		 * @param operandoEntero1 operando entero, parametro de entrada,
+		 * @param operandoEntero2 operando entero, parametro de entrada,
+		 * @return solucionEntero operando entero, parametro de salida, solucion de la potencia de base y exponente de los dos parametros de entrada.
+		 */
 		
+		public double potencia (double base, double exp) {
+			double solucionReal = Math.pow(base,exp);
+			return solucionReal;
+		}
 		
-		
-		
-		
-	}
+
+}
 
 

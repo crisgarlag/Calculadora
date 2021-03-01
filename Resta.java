@@ -51,4 +51,14 @@ public class Resta {
 		this.solReal = opReal1 - opReal2;
 		return solReal;
 	}
+	/**
+	 * Resta de dos números enteros
+	 * @see Resta
+	 * @param opEntero1 y opEntero2 son parámetros de entrada, enteros y no negativo
+	 * @return solEntero es la solución a la resta de los dos parámetros de entrada. Ha de ser entero. 
+	 */
+	public int restaDosEnteros(int opEntero1, int opEntero2) {
+		this.solEntero = opEntero1 - opEntero2;
+		return solEntero;
+	} 
 }

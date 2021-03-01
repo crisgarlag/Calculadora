@@ -61,4 +61,14 @@ public class Resta {
 		this.solEntero = opEntero1 - opEntero2;
 		return solEntero;
 	} 
+	/**
+	 * Resta de tres números reales
+	 * @see Resta
+	 * @param opEntero1, opEntero2 y opEntero3 son parámetros de entrada, enteros y no negativo
+	 * @return solReal es la solución a la resta de los dos parámetros de entrada. Ha de ser entero. 
+	 */
+	public double restaTresReales(double opReal1, double opReal2, double opReal3) {
+		this.solReal = opReal1 - opReal2 - opReal3;
+		return solReal;
+	}
 }

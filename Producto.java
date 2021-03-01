@@ -202,7 +202,6 @@ public class Producto {
 	 * Potencia de un numero entero
 	 * @param operandoEntero1 operando entero, parametro de entrada,
 	 * @param operandoEntero2 operando entero, parametro de entrada,
-	 * @return 
 	 * @return solucionEntero operando entero, parametro de salida, solucion de la potencia de base y exponente de los dos parametros de entrada.
 	 */
 	

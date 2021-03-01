@@ -20,18 +20,6 @@ public class SumaTest {
 		assertEquals(esperado, resultado, "La suma de 100.00 y 50.00 debe ser 150.00");
 	}
 	
-	@Test
-	public void sumaDosRealesPermiteNegativos(){
-		int sumando1=-100;
-		int sumando2=-50;
-		boolean resultado=false;
-		if (sumando1>=0 || sumando2>=0) {
-			resultado=true;
-		}
-		assertTrue(resultado);
-		
-		
-	}
 	
 	@Test
 	public void laSumaNoPuedeSuperar999999999Reales() {

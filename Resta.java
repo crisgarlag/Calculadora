@@ -71,4 +71,14 @@ public class Resta {
 		this.solReal = opReal1 - opReal2 - opReal3;
 		return solReal;
 	}
+	/**
+	 * Resta con valor acumulado
+	 * @see Resta
+	 * @param El parámetro no puede ser negativo 
+	 */
+	public void restaValorAcumulado(int opEntero1) {
+		this.acum -= opEntero1;
+	}
+	
+	
 }

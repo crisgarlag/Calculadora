@@ -4,7 +4,7 @@
  * 	
  * @author Cristian Garcia Lagar
  * @since 22/01/2020
- * @version 1.0
+ * @version 2.0
  */
 public class Cociente {
 	
@@ -13,8 +13,8 @@ public class Cociente {
 	
 	/**
 	 * Constructor con los dos parametros double
-	 * @param numReal1
-	 * @param numReal2
+	 * @param numReal1 valor del atributo numReal1
+	 * @param numReal2 valor del atributo numReal2
 	 */
 	public Cociente(double numReal1, double numReal2) {
 		super();
@@ -24,8 +24,8 @@ public class Cociente {
 
 	/**
 	 *  Constructor con los dos parametros enteros
-	 * @param numInt1
-	 * @param numInt2
+	 * @param numInt1 valor del atributo numInt1
+	 * @param numInt2 valor del atributo numInt1
 	 */
 	public Cociente(int numInt1, int numInt2) {
 		super();
@@ -53,22 +53,22 @@ public class Cociente {
 	}
 	/**
 	 *  Modifica el valor de la propiedad numReal1
-	 * @param numReal1
+	 * @param numReal1 valor del atributo numReal1
 	 */
 	public void setNumReal1(double numReal1) {
 		this.numReal1 = numReal1;
 	}
+	
 	/**
 	 *  Permite obtener el valor de la propiedad numReal2
-	 * @returnde valor de la propiedad numReal2
+	 * @return numReal2 de valor de la propiedad numReal2
 	 */
-
 	public double getNumReal2() {
 		return numReal2;
 	}
 	/**
 	 * Modifica el valor de la propiedad numReal2
-	 * @param numReal2
+	 * @param numReal2 valor del atributo numReal2
 	 */
 	public void setNumReal2(double numReal2) {
 		this.numReal2 = numReal2;
@@ -82,7 +82,7 @@ public class Cociente {
 	}
 	/**
 	 * Modifica el valor de la propiedad numInt1
-	 * @param numInt1
+	 * @param numInt1 valor del atributo numInt1
 	 */
 	public void setNumInt1(int numInt1) {
 		this.numInt1 = numInt1;
@@ -97,7 +97,7 @@ public class Cociente {
 
 	/**
 	 * Modifica el valor de la propiedad numInt2
-	 * @param numInt2
+	 * @param numInt2 valor del atributo numInt2
 	 */
 	public void setNumInt2(int numInt2) {
 		this.numInt2 = numInt2;

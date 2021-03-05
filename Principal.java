@@ -1,4 +1,4 @@
-package Calculadora;
+//package Calculadora;
 
 
 public class Principal {
@@ -12,7 +12,8 @@ public class Principal {
 			System.out.println(test1.sumaDosEnteros(test1.getOperandoEntero1(), test1.getOperandoEntero2()));
 			System.out.println(test1.sumaTresReales(test1.getOperandoReal1(), test1.getOperandoReal2(), test1.getOperandoReal3()));
 			//System.out.println(test1.sumaValorAcumulado(test1.getOperandoEntero1()));
-			
+			Producto producto = new Producto();
+			System.out.println(producto.potencia(20, 2));
 
 	}
 
